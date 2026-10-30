@@ -1,0 +1,21 @@
+{
+  "name": "ng.sosnow.app",
+  "displayName": "SOS Now",
+  "version": "1.0.0",
+  "private": true,
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-geolocation": {
+        "GEOLOCATION_USAGE_DESCRIPTION": "SOS Now uses your location to pin the incident you are reporting."
+      }
+    }
+  },
+  "devDependencies": {
+    "cordova": "^12.0.0",
+    "cordova-android": "^15.1.0",
+    "cordova-plugin-geolocation": "^5.0.0"
+  }
+}
